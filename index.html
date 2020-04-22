@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rittwick Bhabak | About Me</title>
+
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e4e3e3;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+
+#myPic {
+    width: 100%;
+    display: block;
+    margin: auto;
+    /* opacity: 0.8; */
+}
+
+#name {
+    font-size: 41px;
+    font-weight: bold;
+    margin-left: 45px;
+    margin-top: 27px;
+    margin-right: 45px;
+}
+
+ul#about-me li {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.divider-left {
+    width: 80%;
+    border-bottom: 1px solid gray;
+    opacity: 0.5;
+}
+
+.heading {
+    margin: 20px;
+}
+
+.skill {
+    /* border: 1px solid black; */
+    margin: 20px;
+    margin-bottom: 30px;
+}
+
+.progres-div {
+    height: 20px;
+    border-radius: 0.5rem;
+    background-color: #e4e3e3;
+    margin-top: -10px;
+}
+
+#footer {
+    width: 100%;
+    height: 90px;
+    background-color: #5eef6d;
+    clear: both;
+}
+
+.how-far {
+    height: 100%;
+    width: 0;
+    background-color: #44c644;
+    border-bottom-left-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+}
+
+#ml {
+    width: 50%;
+}
+
+#react-native {
+    width: 90%;
+}
+
+#mean {
+    width: 50%;
+}
+
+#datascience {
+    width: 50%;
+}
+
+#hacking {
+    width: 50%;
+}
+
+#english {
+    width: 50%;
+}
+
+#hindi {
+    width: 50%;
+}
+
+#bengali {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+#electron {
+    width: 20%;
+}
+
+#contact-me {
+    position: fixed;
+    right: 18px;
+    top: 12px;
+    color: white;
+    background-color: #3dc73d;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+#contact-me:hover {
+    font-size: 19px;
+}
+
+.header-right {
+    font-size: 35px;
+    margin: 30px;
+}
+
+.item {
+    /* border: 1px solid black; */
+    margin: 30px;
+}
+
+.item-heading {
+    font-size: 25px;
+}
+
+.proj-det-link {
+    text-decoration: none;
+}
+
+.divider-right {
+    width: 100%;
+    /* border-bottom: 1px solid gray; */
+    /* opacity: 0.5; */
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    margin-bottom: -8px;
+}
+
+.hide {
+    display: none;
+}
+
+#view-more-proj {
+    width: 100%;
+    margin-bottom: 0;
+    font-size: 20px;
+    height: auto;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: 1px solid gray;
+    text-align: center;
+    cursor: pointer;
+}
+@media only screen and (min-width:900px){
+    #left {
+        width: 32%;
+        /* border: 1px solid black; */
+        float: left;
+        margin-top: 10px;
+        margin-left: 30px;
+        margin-bottom: 10px;
+        height: auto;
+        background-color: white;
+        box-shadow: 1px 1px 3px gray, -1px -1px 3px gray;
+    }
+    
+    .right {
+        width: 62%;
+        /* border: 1px solid black; */
+        float: right;
+        margin-right: 15px;
+        margin-top: 10px;
+        height: auto;
+        background-color: white;
+        box-shadow: 1px 1px 3px gray, -1px -1px 3px gray;
+        margin-bottom: 10px;
+    }
+    
+}
+@media only screen and (max-width: 900px) {
+    
+    #left {
+        width: 90%;
+        /* border: 1px solid black; */
+        /* float: left; */
+        margin: auto;
+        height: auto;
+        background-color: white;
+        box-shadow: 1px 1px 3px gray, -1px -1px 3px gray;
+        padding-bottom: 10px;
+        margin-top: 10px;
+    }
+    .right {
+        width: 90%;
+        /* border: 10px solid black; */
+        /* float: right; */
+        margin:auto;
+        margin-top: 10px;
+        height: auto;
+        background-color: white;
+        box-shadow: 1px 1px 3px gray, -1px -1px 3px gray;
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (min-width:900px) and (max-width:1400px){
+    #left {
+        width: 32%;
+        /* border: 1px solid black; */
+        float: left;
+        margin-top: 10px;
+        margin-left: 30px;
+        margin-bottom: 10px;
+        height: auto;
+        background-color: white;
+        box-shadow: 1px 1px 3px gray, -1px -1px 3px gray;
+    }
+    
+    .right {
+        width: 62%;
+        /* border: 1px solid black; */
+        float: right;
+        margin-right: 15px;
+        margin-top: 10px;
+        height: auto;
+        background-color: white;
+        box-shadow: 1px 1px 3px gray, -1px -1px 3px gray;
+        margin-bottom: 10px;
+    }
+    
+}
+@media only screen and (min-width:1400px){
+    #left {
+        width: 32%;
+        /* border: 1px solid black; */
+        float: left;
+        margin-top: 10px;
+        margin-left: 50px;
+        margin-bottom: 10px;
+        height: auto;
+        background-color: white;
+        box-shadow: 1px 1px 3px gray, -1px -1px 3px gray;
+    }
+    
+    .right {
+        width: 62%;
+        /* border: 1px solid black; */
+        float: right;
+        margin-right: 15px;
+        margin-top: 10px;
+        height: auto;
+        background-color: white;
+        box-shadow: 1px 1px 3px gray, -1px -1px 3px gray;
+        margin-bottom: 10px;
+    }
+    
+}
+
+/* @media only print{
+    
+} */
+    </style>
+</head>
+
+<body>
+    <!-- <div id="contact-me">
+        Contact Me
+    </div> -->
+    <div id="left">
+
+        <img src="me.jpeg" alt="myProfilePic" id="myPic">
+
+        <div id="about-contacts">
+            <div id="name">Rittwick Bhabak</div>
+            <ul style='list-style-type: none;' id='about-me'>
+                <li>Web Developer, App Developer, Data Scientist, Data Analytics</li>
+                <li><b>Home: </b>Kolkata, India</li>
+                <li><b>Email: </b>rittwick2019@gmail.com</li>
+                <li><b>Phone: </b>+91 6291301315</li>
+            </ul>
+            <hr class='divider-left'>
+            <div class='heading'>
+                <h2>Skills</h2>
+            </div>
+
+            <div class="skill">
+                <h3>React Native</h3>
+                <div class="progres-div">
+                    <div id="react-native" class='how-far'></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>MEAN Stack Development</h3>
+                <div class="progres-div">
+                    <div id="mean" class='how-far'></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>Data Science</h3>
+                <div class="progres-div">
+                    <div id="datascience" class='how-far'></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>Machine Learning</h3>
+                <div class="progres-div">
+                    <div id="ml" class='how-far'></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>Cyber Security</h3>
+                <div class="progres-div">
+                    <div id="hacking" class='how-far'></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>Electron Js</h3>
+                <div class="progres-div">
+                    <div id="electron" class='how-far'></div>
+                </div>
+            </div>
+            <!-- <div class='heading'>
+                <h2>Programming Languages</h2>
+            </div>
+            <div class="skill">
+                <h3>Python</h3>
+                <div class="progres-div">
+                    <div id="python" class='how-far'></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>C++</h3>
+                <div class="progres-div">
+                    <div id="c-plus-plus" class='how-far'></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <div class="progres-div">
+                    <div id="javascript" class='how-far'></div>
+                </div>
+            </div> -->
+            <hr class='divider-left'>
+            <div class='heading'>
+                <h2>Languages</h2>
+            </div>
+            <div class="skill">
+                <h3>English</h3>
+                <div class="progres-div">
+                    <div id="english" class='how-far'></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>Hindi</h3>
+                <div class="progres-div">
+                    <div id="hindi" class='how-far'></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>Bengali</h3>
+                <div class="progres-div">
+                    <div id="bengali" class='how-far'></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="right">
+        <div class="header-right">Projects</div>
+        <div class="item">
+            <div class="item-heading">Chorme Extension Timer</div>
+            <div class="tech-used">Technology Uesed: javaScript, chrome api</div>
+            <p>Sets a cancelable timer and sends an alerts on time up</p>
+            <a href="" class='proj-det-link' target="_blank">Please Visit Project Details</a>
+            <hr class="divider-right">
+        </div>
+        <div class="item">
+            <div class="item-heading">Test You Typing Speed</div>
+            <div class="tech-used">Technology Uesed: javaScript, Bootstrap4</div>
+            <p>Sets a cancelable timer and sends an alerts on time up</p>
+            <a href="" class='proj-det-link' target="_blank">Please Visit Project Details</a>
+            <hr class="divider-right">
+        </div>
+        <div class="item">
+            <div class="item-heading">Read It Out Chorme Extension</div>
+            <div class="tech-used">Technology Uesed: javaScript, chrome api</div>
+            <p>Sets a cancelable timer and sends an alerts on time up</p>
+            <a href="" class='proj-det-link' target="_blank">Please Visit Project Details</a>
+        </div>
+        <div id="view-more-proj">
+            View More Project
+        </div>
+        <!-- <hr class="divider-right hide"> -->
+        <div class="item hide">
+            <hr class="divider-right">
+            <div class="item-heading">Amazon Image Downloader</div>
+            <div class="tech-used">Technology Uesed: javaScript, chrome api</div>
+            <p>Sets a cancelable timer and sends an alerts on time up</p>
+            <a href="" class='proj-det-link' target="_blank">Please Visit Project Details</a>
+            <hr class="divider-right">
+        </div>
+        <div class="item hide">
+            <div class="item-heading">Youtube Playlist total duration</div>
+            <div class="tech-used">Technology Uesed: javaScript, chrome api</div>
+            <p>Sets a cancelable timer and sends an alerts on time up</p>
+            <a href="" class='proj-det-link' target="_blank">Please Visit Project Details</a>
+            <hr class="divider-right">
+        </div>
+        <!-- <hr class="divider-right hide"> -->
+        <div class="item hide">
+            <div class="item-heading">Merging multiple images to a single pdf</div>
+            <div class="tech-used">Technology Uesed: javaScript, chrome api</div>
+            <p>Sets a cancelable timer and sends an alerts on time up</p>
+            <a href="" class='proj-det-link' target="_blank">Please Visit Project Details</a>
+            <hr class="divider-right">
+        </div>
+        <!-- <hr class="divider-right hide"> -->
+        <div class="item hide">
+            <div class="item-heading">Chorme Extension Timer</div>
+            <div class="tech-used">Technology Uesed: javaScript, chrome api</div>
+            <p>Sets a cancelable timer and sends an alerts on time up</p>
+            <a href="" class='proj-det-link' target="_blank">Please Visit Project Details</a>
+            <hr class="divider-right">
+        </div>
+        <div class="item hide">
+            <div class="item-heading">Chorme Extension Timer</div>
+            <div class="tech-used">Technology Uesed: javaScript, chrome api</div>
+            <p>Sets a cancelable timer and sends an alerts on time up</p>
+            <a href="" class='proj-det-link' target="_blank">Please Visit Project Details</a>
+            <hr class="divider-right">
+        </div>
+        <div class="item hide">
+            <div class="item-heading">Chorme Extension Timer</div>
+            <div class="tech-used">Technology Uesed: javaScript, chrome api</div>
+            <p>Sets a cancelable timer and sends an alerts on time up</p>
+            <a href="" class='proj-det-link' target="_blank">Please Visit Project Details</a>
+        </div>
+
+    </div>
+    <div class="right">
+        <div class="header-right">Education</div>
+        <div class="item">
+            <div class="item-heading">Kalyani Government Engineering College</div>
+            <div class="tech-used">2018 - 2022</div>
+            <p>B.Tech in Computer Science and Engineering</p>
+            <p>CGPA: 9</p>
+            <!-- <a href="" class='proj-det-link' target="_blank">Please Visit Project Details</a> -->
+        </div>
+        <hr class="divider-right">
+        <div class="item">
+            <div class="item-heading">Baranagar Narendaranth Vidaymandir</div>
+            <div class="tech-used">2015-2017</div>
+            <p>Higer Secondary</p>
+            <p>Marks Obtained: 89%</p>
+            <!-- <a href="" class='proj-det-link' target="_blank">Please Visit Project Details</a> -->
+        </div>
+        <hr class="divider-right">
+        <div class="item">
+            <div class="item-heading">Baranagar Ramakrishan Mission Ashrama High School</div>
+            <div class="tech-used">2012-2015</div>
+            <p>Till 10th Standard</p>
+            <p>Marks Obtained: 89%</p>
+            <!-- <a href="" class='proj-det-link' target="_blank">Please Visit Project Details</a> -->
+        </div>
+        <!-- <hr class="divider-right"> -->
+
+    </div>
+
+
+
+    <div id="footer">
+
+    </div>
+</body>
+<script>
+    document.getElementById('view-more-proj').addEventListener('click',()=>{
+        let list = document.getElementsByClassName('item');
+        for(let i = 0;i<list.length;i++){
+            list[i].className = 'item';
+        }
+        list = document.getElementsByClassName('divider-right');
+        for(let i = 0;i<list.length;i++){
+            list[i].className = 'divider-right';
+        }
+        document.getElementById('view-more-proj').style.display = 'none';
+    })
+</script>
+</html>
